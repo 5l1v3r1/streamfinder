@@ -1,0 +1,138 @@
+# ==========================================
+# English language file for StreamFinder 1.2
+# ==========================================
+
+# *** Language ***
+Lang|Language=Swedish
+Lang|AuthorName=Åke Engelbrektson
+Lang|AuthorMail=eson57@gmail.com
+Lang|AuthorSite=http://svenskasprakfiler.se/
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+Font|Charset=DEFAULT
+
+# *** Available charsets ***
+# ANSI        ANSI characters.
+# ARABIC      Arabic characters. Not available on NT 3.51
+# BALTIC      Baltic characters. Not available on NT 3.51.
+# CHINESEBIG5 Traditional Chinese characters (Taiwanese).
+# DEFAULT     Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+# EASTEUROPE  Includes diacritical marks for eastern european countries. Not available on NT 3.51.
+# GB2312      Simplified Chinese characters (mainland china).
+# GREEK       Greek characters. Not available on NT 3.51.
+# HANGEUL     Korean characters (Wansung).
+# HEBREW      Hebrew characters. Not available on NT 3.51
+# JOHAB       Korean characters (Johab). Not available on NT 3.51
+# MAC         Macintosh characters. Not available on NT 3.51.
+# OEM         Depends on the codepage of the operating system.
+# RUSSIAN     Cyrillic characters. Not available on NT 3.51.
+# SHIFTJIS    Japanese shift-JIS characters.
+# SYMBOL      Standard symbol set.
+# THAI        Thai characters. Not available on NT 3.51
+# TURKISH     Turkish characters. Not available on NT 3.51
+# VIETNAMESE  Vietnamese characters. Not available on NT 3.51.
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|lblLanguage=Språk
+
+General|btnOk=OK
+General|btnCancel=Avbryt
+
+General|MsgNoStdBrowserTitle=Ingen webbläsare kunde hittas
+General|MsgNoStdBrowserText=Webbläsaren kan inte startas!
+General|MsgNoStdMailerTitle=Ingen e-postklient kunde hittas
+General|MsgNoStdMailerText=E-postklienten kan inte startas!
+
+General|FilterAll=Alla filer (*.*)
+General|FilterCSV=CSV-filer (*.csv)
+General|FilterTXT=Textfiler (*.txt)
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=Om %s1%
+
+Info|lblDescription=Hitta alternativa dataströmmar i partitioner och mappar
+Info|lblVersion=Version %s1%
+Info|lblRights=All rights reserved.
+Info|lblHome=Hemsida:
+Info|lblHomePage=Besök utvecklarens hemsida
+Info|lblMail=E-postadress:
+Info|lblMailAddr=Skicka e-post till utvecklaren
+
+Info|grpLang=Språkfil
+Info|lblLangAuthor=Översättare:
+Info|lblLangHomePage=Besök översättarens hemsida
+Info|lblLangMailAddr=Skicka e-post till översättaren
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|frmTitle=%s1%
+
+Main|mnuFile=&Arkiv
+Main|mnuFileExport=&Exportera lista över dataströmmar...
+Main|mnuFileExit=A&vsluta
+Main|mnuStream=&Ström
+Main|mnuStreamSaveAs=&Spara som...
+Main|mnuStreamDelete=&Ta bort
+# *** Don't add a "&" sign to the mnuLanguage entry.
+Main|mnuLanguage=Språk
+Main|mnuHelp=&Hjälp
+Main|mnuHelpWebsite=Besök programmets &webbsida...
+Main|mnuHelpEMail=Skicka e-&post till utvecklaren...
+Main|mnuHelpDonate=&Donera...
+Main|mnuHelpInfo=&Om...
+
+Main|grpOptions=Sökalternativ
+Main|lblDir=Katalog:
+Main|tbDirSel=Välj katalog...
+Main|lblMask=Filfilter:
+Main|chkRecursive=Sök i underkataloger
+
+Main|lvStreamsFile=Filnamn
+Main|lvStreamsName=Dataström
+Main|lvStreamsType=Strömtyp
+Main|lvStreamsSize=Storlek
+
+Main|btnStart=Starta
+Main|btnStop=Stoppa
+
+Main|sbMainReady=Klar.
+
+Main|MsgDirNotFoundTitle=Katalogen kan inte hittas
+Main|MsgDirNotFoundText=Katalogen "%s1%" kan inte hittas.
+
+Main|DlgSelDirText=Välj katalog:
+
+Main|DlgExportTitle=Exportera lista över dataströmmar
+Main|DlgSaveStreamTitle=Spara dataström som
+
+Main|MsgFileExistTitle=Filen finns redan
+Main|MsgFileExistText=Filen "%s1%" finns redan.%w%Vill du skriva över den befintliga filen?
+
+Main|MsgStreamSaveTitle=Spara dataström
+Main|MsgStreamSaveNoMemText=Det finns inte tillräckligt med minne för att spara dataströmmen.
+Main|MsgStreamSaveErrText=Dataströmmen kan inte sparas.
+
+Main|MsgStreamDelTitle=Ta bort dataströmmen
+Main|MsgStreamDelText=Vill du ta bort dataströmmen "%s1%"?
+Main|MsgStreamDelErrText=Dataströmmen kan inte tas bort.
+Main|MsgStreamSelDelTitle=Ta bort dataströmmar
+Main|MsgStreamSelDelText=Vill du ta bort alla markerade dataströmmar?
+Main|MsgStreamSelDelErrText=Alla markerade dataströmmar kunde inte tas bort.
+
+

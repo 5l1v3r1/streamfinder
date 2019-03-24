@@ -1,0 +1,134 @@
+# ==========================================
+# Arquivo idiomático Português (BR) para StreamFinder 1.2
+# ==========================================
+
+# *** Idioma ***
+Lang|Language=Português (BR)
+Lang|AuthorName=Paulo Guzmán
+
+# *** Fonte ***
+Font|Name=Tahoma
+Font|Size=8
+Font|Charset=DEFAULT
+
+# *** Conjunto de caracteres disponíveis ***
+# ANSI        Caracteres ANSI.
+# ARABIC      Caracteres árabes. Não disponível no NT 3.51.
+# BALTIC      Caracteres Báltico. Não disponível no NT 3.51.
+# CHINESEBIG5 Caracteres chineses tradicionais (Taiwan).
+# DEFAULT     A fonte é escolhida com base unicamente em nome e tamanho. Se a fonte descrita não está disponível no sistema, o Windows a substituirá por outra.
+# EASTEUROPE  Inclui sinais diacríticos para os países do Leste Europeu. Não disponível no NT 3.51.
+# GB2312      Caracteres chineses simplificados (China).
+# GREEK       Caracteres gregos. Não disponível no NT 3.51.
+# HANGEUL     Caracteres coreanos (Wansung).
+# HEBREW      Caracteres hebraicos. Não disponível no NT 3.51.
+# JOHAB       Caracteres coreanos (Johab). Não disponível no NT 3.51.
+# MAC         Caracteres do Macintosh. Não disponível no NT 3.51.
+# OEM         Depende da página de código do sistema operacional.
+# RUSSIAN     Caracteres cirílicos. Não disponível no NT 3.51.
+# SHIFTJIS    Caracteres japoneses shift-JIS.
+# SYMBOL      Conjunto de símbolos padrão.
+# THAI        Caracteres tailandeses. Não disponível no NT 3.51.
+# TURKISH     Caracteres turco. Não disponível no NT 3.51.
+# VIETNAMESE  Caracteres vietnamita. Não disponível no NT 3.51.
+
+
+
+# ###############
+# ##### Geral ####
+# ###############
+
+General|lblLanguage=Idioma
+
+General|btnOk=Fechar
+General|btnCancel=Cancelar
+
+General|MsgNoStdBrowserTitle=O navegador padrão não foi encontrado
+General|MsgNoStdBrowserText=O navegador padrão não pode ser inicializado!
+General|MsgNoStdMailerTitle=O cliente de e-mail padrão não foi encontrado
+General|MsgNoStdMailerText=O cliente de e-mail padrão não pode ser inicializado!
+
+General|FilterAll=Todos os arquivos (*.*)
+General|FilterCSV=Arquivos CSV (*.csv)
+General|FilterTXT=Arquivos de texto (*.txt)
+
+
+
+# ##################
+# ### Campo sobre ###
+# ##################
+
+Info|frmTitle=Sobre %s1%
+
+Info|lblDescription=Encontra fluxos de dados ocultos em partições e pastas.
+Info|lblVersion=Versão: %s1%
+Info|lblRights=Todos os direitos reservados.
+Info|lblHome=Página:
+Info|lblHomePage=Visitar a página do autor
+Info|lblMail=E-mail:
+Info|lblMailAddr=Envie um e-mail para o autor
+
+Info|grpLang=Arquivo idiomático
+Info|lblLangAuthor=Autor:
+Info|lblLangHomePage=Visitar a página do tradutor
+Info|lblLangMailAddr=Envie um e-mail para o tradutor
+
+
+
+# #####################
+# ### Campo principal ###
+# #####################
+
+Main|frmTitle=%s1%
+
+Main|mnuFile=&Arquivo
+Main|mnuFileExport=&Exportar a lista de fluxo de dados...
+Main|mnuFileExit=S&air
+Main|mnuStream=&Fluxo de dados
+Main|mnuStreamSaveAs=&Salvar como...
+Main|mnuStreamDelete=&Apagar
+# *** Não adicione o caractere "&" na entrada mnuLanguage.
+Main|mnuLanguage=Idioma
+Main|mnuHelp=&Ajuda
+Main|mnuHelpWebsite=Visitar a &página do produto...
+Main|mnuHelpEMail=Enviar um e-&mail para o autor...
+Main|mnuHelpDonate=&Fazer uma doação...
+Main|mnuHelpInfo=&Sobre...
+
+Main|grpOptions=Opções de pesquisa
+Main|lblDir=Diretório:
+Main|tbDirSel=Selecionar o diretório...
+Main|lblMask=Curinga:
+Main|chkRecursive=Pesquisar em subdiretórios.
+
+Main|lvStreamsFile=Nome do arquivo
+Main|lvStreamsName=Nome do fluxo
+Main|lvStreamsType=Tipo de fluxo
+Main|lvStreamsSize=Tamanho
+
+Main|btnStart=Iniciar
+Main|btnStop=Parar
+
+Main|sbMainReady=Concluído.
+
+Main|MsgDirNotFoundTitle=Diretório não encontrado
+Main|MsgDirNotFoundText=O diretório "%s1%" não pode ser encontrado.
+
+Main|DlgSelDirText=Por favor, selecione o diretório:
+
+Main|DlgExportTitle=Exportar a lista de fluxo de dados
+Main|DlgSaveStreamTitle=Salvar fluxo de dados como
+
+Main|MsgFileExistTitle=Já existe o arquivo
+Main|MsgFileExistText=O arquivo "%s1%" não existe.%w% Você quer substituir este arquivo?
+
+Main|MsgStreamSaveTitle=Salvar o fluxo de dados
+Main|MsgStreamSaveNoMemText=Não há memória disponível para salvar o fluxo de dados.
+Main|MsgStreamSaveErrText=O fluxo de dados não pode ser salvo.
+
+Main|MsgStreamDelTitle=Apagar o fluxo de dados
+Main|MsgStreamDelText=Você quer apagar o fluxo de dados "%s1%"?
+Main|MsgStreamDelErrText=O fluxo de dados não pode ser apagado.
+Main|MsgStreamSelDelTitle=Apagar fluxo de dados
+Main|MsgStreamSelDelText=Você quer apagar todos os fluxos de dados selecionados?
+Main|MsgStreamSelDelErrText=Nem todos os fluxos de dados podem ser apagados.

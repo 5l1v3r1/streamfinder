@@ -1,0 +1,138 @@
+# ==========================================
+# English language file for StreamFinder 1.2
+# ==========================================
+
+# *** Language ***
+Lang|Language=English
+Lang|AuthorName=Werner Rumpeltesz
+Lang|AuthorMail=info@gaijin.at
+Lang|AuthorSite=http://www.gaijin.at/
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+Font|Charset=DEFAULT
+
+# *** Available charsets ***
+# ANSI        ANSI characters.
+# ARABIC      Arabic characters. Not available on NT 3.51
+# BALTIC      Baltic characters. Not available on NT 3.51.
+# CHINESEBIG5 Traditional Chinese characters (Taiwanese).
+# DEFAULT     Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+# EASTEUROPE  Includes diacritical marks for eastern european countries. Not available on NT 3.51.
+# GB2312      Simplified Chinese characters (mainland china).
+# GREEK       Greek characters. Not available on NT 3.51.
+# HANGEUL     Korean characters (Wansung).
+# HEBREW      Hebrew characters. Not available on NT 3.51
+# JOHAB       Korean characters (Johab). Not available on NT 3.51
+# MAC         Macintosh characters. Not available on NT 3.51.
+# OEM         Depends on the codepage of the operating system.
+# RUSSIAN     Cyrillic characters. Not available on NT 3.51.
+# SHIFTJIS    Japanese shift-JIS characters.
+# SYMBOL      Standard symbol set.
+# THAI        Thai characters. Not available on NT 3.51
+# TURKISH     Turkish characters. Not available on NT 3.51
+# VIETNAMESE  Vietnamese characters. Not available on NT 3.51.
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|lblLanguage=Language
+
+General|btnOk=Ok
+General|btnCancel=Cancel
+
+General|MsgNoStdBrowserTitle=Default web browser not found
+General|MsgNoStdBrowserText=The default web browser can´t started!
+General|MsgNoStdMailerTitle=Default mail client not found
+General|MsgNoStdMailerText=The default mail client can´t started!
+
+General|FilterAll=All files (*.*)
+General|FilterCSV=CSV files (*.csv)
+General|FilterTXT=Text files (*.txt)
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=About %s1%
+
+Info|lblDescription=Find hidden data streams in partitions and folders
+Info|lblVersion=Version %s1%
+Info|lblRights=All rights reserved.
+Info|lblHome=Homepage:
+Info|lblHomePage=Visit the authors website
+Info|lblMail=E-mail:
+Info|lblMailAddr=Send an e-mail to the author
+
+Info|grpLang=Language file
+Info|lblLangAuthor=Author:
+Info|lblLangHomePage=Visit the translators website
+Info|lblLangMailAddr=Send an e-mail to the translator
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|frmTitle=%s1%
+
+Main|mnuFile=&File
+Main|mnuFileExport=&Export stream list...
+Main|mnuFileExit=E&xit
+Main|mnuStream=&Stream
+Main|mnuStreamSaveAs=&Save as...
+Main|mnuStreamDelete=&Delete
+# *** Don't add a "&" sign to the mnuLanguage entry.
+Main|mnuLanguage=Language
+Main|mnuHelp=&Help
+Main|mnuHelpWebsite=Visit the product &website...
+Main|mnuHelpEMail=Send an e-&mail to the author...
+Main|mnuHelpDonate=&Donate...
+Main|mnuHelpInfo=&About...
+
+Main|grpOptions=Search options
+Main|lblDir=Directory:
+Main|tbDirSel=Select directory...
+Main|lblMask=File mask:
+Main|chkRecursive=Search in subdirectories
+
+Main|lvStreamsFile=Filename
+Main|lvStreamsName=Stream name
+Main|lvStreamsType=Stream type
+Main|lvStreamsSize=Size
+
+Main|btnStart=Start
+Main|btnStop=Stop
+
+Main|sbMainReady=Ready.
+
+Main|MsgDirNotFoundTitle=Directory not found
+Main|MsgDirNotFoundText=The directory "%s1%" can't be found.
+
+Main|DlgSelDirText=Please select the directory:
+
+Main|DlgExportTitle=Export stream list
+Main|DlgSaveStreamTitle=Save stream as
+
+Main|MsgFileExistTitle=File already exist
+Main|MsgFileExistText=The file "%s1%" does already exist.%w%Do you want to overwrite this file?
+
+Main|MsgStreamSaveTitle=Save stream
+Main|MsgStreamSaveNoMemText=There isn't enough memory available to save the stream.
+Main|MsgStreamSaveErrText=The stream can't be saved.
+
+Main|MsgStreamDelTitle=Delete stream
+Main|MsgStreamDelText=Do you want to delete the stream "%s1%"?
+Main|MsgStreamDelErrText=The stream can't be deleted.
+Main|MsgStreamSelDelTitle=Delete streams
+Main|MsgStreamSelDelText=Do you want to delete all selected streams?
+Main|MsgStreamSelDelErrText=Not all selected streams can't be deleted.
+
+

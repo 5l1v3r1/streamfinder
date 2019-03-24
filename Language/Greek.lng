@@ -1,0 +1,136 @@
+# ==========================================
+# Greek language file for StreamFinder 1.2
+# ==========================================
+
+# *** Language ***
+Lang|Language=Greek
+Lang|AuthorName=geogeo.gr
+Lang|AuthorMail=geogeo.gr@gmail.com
+Lang|AuthorSite=http://www.geogeo.gr
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+Font|Charset=DEFAULT
+
+# *** Available charsets ***
+# ANSI        ANSI characters.
+# ARABIC      Arabic characters. Not available on NT 3.51
+# BALTIC      Baltic characters. Not available on NT 3.51.
+# CHINESEBIG5 Traditional Chinese characters (Taiwanese).
+# DEFAULT     Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+# EASTEUROPE  Includes diacritical marks for eastern european countries. Not available on NT 3.51.
+# GB2312      Simplified Chinese characters (mainland china).
+# GREEK       Greek characters. Not available on NT 3.51.
+# HANGEUL     Korean characters (Wansung).
+# HEBREW      Hebrew characters. Not available on NT 3.51
+# JOHAB       Korean characters (Johab). Not available on NT 3.51
+# MAC         Macintosh characters. Not available on NT 3.51.
+# OEM         Depends on the codepage of the operating system.
+# RUSSIAN     Cyrillic characters. Not available on NT 3.51.
+# SHIFTJIS    Japanese shift-JIS characters.
+# SYMBOL      Standard symbol set.
+# THAI        Thai characters. Not available on NT 3.51
+# TURKISH     Turkish characters. Not available on NT 3.51
+# VIETNAMESE  Vietnamese characters. Not available on NT 3.51.
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|lblLanguage=Γλώσσα
+
+General|btnOk=Εντάξει
+General|btnCancel=’κυρο
+
+General|MsgNoStdBrowserTitle=Το προεπιλεγμένο πρόγραμμα περιήγησης ιστού δεν βρέθηκε
+General|MsgNoStdBrowserText=Το προεπιλεγμένο πρόγραμμα περιήγησης ιστού δεν μπόρεσε να ξεκινήσει!
+General|MsgNoStdMailerTitle=Το προεπιλεγμένο πρόγραμμα-πελάτης αλληλογραφίας δεν βρέθηκε
+General|MsgNoStdMailerText=Το προεπιλεγμένο πρόγραμμα-πελάτης αλληλογραφίας δεν μπόρεσε να ξεκινήσει!
+
+General|FilterAll=Όλα τα αρχεία (*.*)
+General|FilterCSV=Αρχεία CSV (*.csv)
+General|FilterTXT=Αρχεία κειμένου (*.txt)
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=Περί %s1%
+
+Info|lblDescription=Εύρεση κρυφών ροών δεδομένων σε διαμερίσματα και φακέλους
+Info|lblVersion=Έκδοση %s1%
+Info|lblRights=Με επιφύλαξη κάθε νόμιμου δικαιώματος.
+Info|lblHome=Ιστοσελίδα:
+Info|lblHomePage=Επισκεφθείτε την ιστοσελίδα του δημιουργού
+Info|lblMail=E-mail:
+Info|lblMailAddr=Αποστολή e-mail στο δημιουργό
+
+Info|grpLang=Αρχείο γλώσσας
+Info|lblLangAuthor=Δημιουργός:
+Info|lblLangHomePage=Επισκεφθείτε την ιστοσελίδα του μεταφραστή
+Info|lblLangMailAddr=Αποστολή e-mail στο μεταφραστή
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|frmTitle=%s1%
+
+Main|mnuFile=&Αρχείο
+Main|mnuFileExport=&Εξαγωγή λίστας ροών...
+Main|mnuFileExit=Έ&ξοδος
+Main|mnuStream=&Ροή
+Main|mnuStreamSaveAs=Απο&θήκευση ως...
+Main|mnuStreamDelete=&Διαγραφή
+# *** Don't add a "&" sign to the mnuLanguage entry.
+Main|mnuLanguage=Γλώσσα
+Main|mnuHelp=&Βοήθεια
+Main|mnuHelpWebsite=Επίσκεψη στην &ιστοσελίδα του προϊόντος...
+Main|mnuHelpEMail=&Αποστολή e-mail στο δημιουργό...
+Main|mnuHelpDonate=&Δωρεά...
+Main|mnuHelpInfo=&Περί...
+
+Main|grpOptions=Επιλογές αναζήτησης
+Main|lblDir=Κατάλογος:
+Main|tbDirSel=Επιλέξτε κατάλογο...
+Main|lblMask=Μάσκα αρχείου:
+Main|chkRecursive=Αναζήτηση σε υποκαταλόγους
+
+Main|lvStreamsFile=Όνομα αρχείου
+Main|lvStreamsName=Όνομα ροής
+Main|lvStreamsType=Τύπος ροής
+Main|lvStreamsSize=Μέγεθος
+
+Main|btnStart=Έναρξη
+Main|btnStop=Διακοπή
+
+Main|sbMainReady=Έτοιμο.
+
+Main|MsgDirNotFoundTitle=Ο κατάλογος δεν βρέθηκε.
+Main|MsgDirNotFoundText=Ο κατάλογος "%s1%" δεν βρέθηκε.
+
+Main|DlgSelDirText=Παρακαλώ επιλέξτε τον κατάλογο:
+
+Main|DlgExportTitle=Εξαγωγή λίστας ροών
+Main|DlgSaveStreamTitle=Αποθήκευση ροής ως
+
+Main|MsgFileExistTitle=Το αρχείο υπάρχει ήδη
+Main|MsgFileExistText=Το αρχείο "%s1%" υπάρχει ήδη.%w%Θέλετε να αντικαταστήσετε αυτό το αρχείο;
+
+Main|MsgStreamSaveTitle=Αποθήκευση ροής
+Main|MsgStreamSaveNoMemText=Δεν υπάρχει αρκετή μνήμη διαθέσιμη για την αποθήκευση της ροής.
+Main|MsgStreamSaveErrText=Δεν είναι δυνατή η αποθήκευση της ροής.
+ 
+Main|MsgStreamDelTitle=Διαγραφή ροής
+Main|MsgStreamDelText=Θέλετε να διαγράψετε τη ροή "%s1%";
+Main|MsgStreamDelErrText=Δεν είναι δυνατή η διαγραφή της ροής.
+Main|MsgStreamSelDelTitle=Διαγραφή ροών
+Main|MsgStreamSelDelText=Θέλετε να διαγράψετε όλες τις επιλεγμένες ροές;
+Main|MsgStreamSelDelErrText=Δεν είναι δυνατή η διαγραφή όλων των επιλεγμένων ροών.
